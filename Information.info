@@ -1,0 +1,32 @@
+Lessons:
+    https://www.youtube.com/playlist?list=PLAma_mKffTOR5o0WNHnY0mTjKxnCgSXrZ
+
+Lesson 15:
+    1. Create Maven project with webapp archetype (IntelliJ IDEA Ultimate edition)
+    2. Download and unzip tomcat for win64 version 9.0.78
+    3. Run -> Edit configuration -> Tomcat server -> local
+    4. Application server -> Configure -> Tomcat Home
+    5. fix -> war exploded
+    6. Application context = empty string
+    7. Name = {make your name} -> apply -> OK
+    8. Restart IntelliJ IDEA
+    9. Run -> server is starting
+    10. Add dependencies to pom.xml:
+        - spring-core 6.0.11
+        - spring-context 6.0.11
+        - spring-web 6.0.11
+        - spring-webmvc 6.0.11
+        - thymeleaf-spring5
+    11. Paste code to web.xml
+    12. Create WEN-INF/applicationContextMVC.xml
+    13. Paste code to applicationContextMVC.xml
+    14. Create folder java and mark it as a source root
+    15. Create package by.springcourse
+    16. Create class HelloController
+    17. Add annotation @Controller
+    18. Add method with annotation @GetMapping
+    19. Create folder views
+    20. Create view hello_world.html
+    21. Paste code to hello_world.html
+    22. Run tomcat server
+    23. Open url http://localhost:8085/hello-world -> Hello world!!!
