@@ -30,3 +30,15 @@ Lesson 15:
     21. Paste code to hello_world.html
     22. Run tomcat server
     23. Open url http://localhost:8085/hello-world -> Hello world!!!
+
+Lesson 16:
+    1. Create package config
+    2. Create class MySpringMvcDispatcherServletInitializer extends AbstractAnnotationConfigDispatcherServletInitializer
+    3. Realize methods from extend class
+    4. Create class SpringConfig with annotation @Configuration, @ComponentScan and @EnableWebMvc
+    5. Paste code to class SpringConfig
+    6. Upgrade class MySpringMvcDispatcherServletInitializer
+    7. Add dependency jakarta.servlet-api
+    8. Del xml files
+    9. Run tomcat server
+    10. Open url http://localhost:8085/hello-world -> Hello world!!!
