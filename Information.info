@@ -38,7 +38,7 @@ Lesson 16:
     4. Create class SpringConfig with annotation @Configuration, @ComponentScan and @EnableWebMvc
     5. Paste code to class SpringConfig
     6. Upgrade class MySpringMvcDispatcherServletInitializer
-    7. Add dependency jakarta.servlet-api
+    7. Add dependencies jakarta.servlet-api and javax.servlet-api
     8. Del xml files
     9. Run tomcat server
     10. Open url http://localhost:8085/hello-world -> Hello world!!!
@@ -59,3 +59,13 @@ Lesson 17:
     13. Add @RequestMapping to FirstController
     14. Add new urls to views
     15. Run tomcat server -> Its working!
+
+Lesson 18:
+    1. Edit method helloPage with adding GET parameters
+    2. Run tomcat server
+    3. Open url http://localhost:8085/first/hello?name=Alex&surname=Smith -> Hello Alex Smith (in console)
+    4. Edit method goodbyePage with adding GET parameters (2nd way)
+    5. Run tomcat server
+    6. Open url http://localhost:8085/first/goodbye?name=Alex&surname=Smith -> Hello Alex Smith (in console)
+    7. Edit links with GET parameters in views
+    8. Run tomcat server -> Its working!
