@@ -60,7 +60,7 @@ Lesson 17:
     14. Add new urls to views
     15. Run tomcat server -> Its working!
 
-Lesson 18:
+Lesson 19:
     1. Edit method helloPage with adding GET parameters
     2. Run tomcat server
     3. Open url http://localhost:8085/first/hello?name=Alex&surname=Smith -> Hello Alex Smith (in console)
@@ -69,3 +69,9 @@ Lesson 18:
     6. Open url http://localhost:8085/first/goodbye?name=Alex&surname=Smith -> Hello Alex Smith (in console)
     7. Edit links with GET parameters in views
     8. Run tomcat server -> Its working!
+
+Lesson 20:
+    1. Edit method goodbyePage with adding Model
+    2. Edit goodbye.html
+    3. Run tomcat server -> Its working!
+    Homework: Create calculator page -> Done
