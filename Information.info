@@ -42,3 +42,20 @@ Lesson 16:
     8. Del xml files
     9. Run tomcat server
     10. Open url http://localhost:8085/hello-world -> Hello world!!!
+
+Lesson 17:
+    1. Delete view and controller
+    2. Create directory controllers
+    3. Create class FirstController with annotation @Controller
+    4. Create 2 methods helloPage and goodbyePage
+    5. Create folder first in views
+    6. Create new html files hello.html and goodbye.html
+    7. Create links in files to go to each other
+    8. Run tomcat server -> Its working!
+    9. Create new controller SecondController with 1 method exit
+    10. Create view and html file
+    11. Add links to exist html files
+    12. Run tomcat server -> Its working!
+    13. Add @RequestMapping to FirstController
+    14. Add new urls to views
+    15. Run tomcat server -> Its working!
