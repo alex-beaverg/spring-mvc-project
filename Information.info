@@ -84,3 +84,10 @@ Lesson 21:
     5. Add peoples to List
     6. Create views
     7. Run tomcat server -> Its working!
+
+Lesson 22:
+    1. Add methods to controller:
+    2. Add empty constructor to Person
+    3. Add method save to DAO
+    4. Add view new
+    5. Run tomcat server -> Its working!
