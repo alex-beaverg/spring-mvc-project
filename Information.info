@@ -75,3 +75,12 @@ Lesson 20:
     2. Edit goodbye.html
     3. Run tomcat server -> Its working!
     Homework: Create calculator page -> Done
+
+Lesson 21:
+    1. Delete from project all controllers and all views
+    2. Create new controller PeopleController
+    3. Create new model Person
+    4. Create new DAO PersonDAO with temporary DB = List<Person>
+    5. Add peoples to List
+    6. Create views
+    7. Run tomcat server -> Its working!
