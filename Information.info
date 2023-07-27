@@ -1,6 +1,11 @@
 Lessons:
     https://www.youtube.com/playlist?list=PLAma_mKffTOR5o0WNHnY0mTjKxnCgSXrZ
 
+    working set:
+    thymeleaf-spring6
+    tomcat-10.1.11
+    spring 6.0.11
+
 Lesson 15:
     1. Create Maven project with webapp archetype (IntelliJ IDEA Ultimate edition)
     2. Download and unzip tomcat for win64 version 9.0.78
@@ -91,3 +96,11 @@ Lesson 22:
     3. Add method save to DAO
     4. Add view new
     5. Run tomcat server -> Its working!
+
+Lesson 23:
+    1. Add method edit to controller
+    2. Add view edit
+    3. Add method update to controller
+    4. Add method update to DAO
+    5. Paste code with filter to MySpringMvcDispatcherServletInitializer
+    6. Run tomcat server -> Its working!
