@@ -104,3 +104,8 @@ Lesson 23:
     4. Add method update to DAO
     5. Paste code with filter to MySpringMvcDispatcherServletInitializer
     6. Run tomcat server -> Its working!
+    7. Edit view show
+    8. Add method delete to controller
+    9. Add method delete to DAO
+    10. Edit view index
+    11. Run tomcat server -> Its working!
