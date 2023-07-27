@@ -118,3 +118,14 @@ Lesson 24:
     5. Edit with validation class PeopleController
     6. Edit views new and edit with validation
     7. Run tomcat server -> Its working!
+
+Lesson 25:
+    1. Install PostGreSQL and PGAdmin
+    2. Create database in PGAdmin
+    3. Connect to database in IDEA
+    4. Create table in database with SQL code //create table Person(id int, name varchar, age int, email varchar)//
+    5. Add persons to database with SQL code //insert into person values(1, 'Tom', 18, 'tom@bymail.com')//
+    6. Check line in table with SQL code //select * from person//
+    7. Add dependency postgresql
+    8. Edit 2 methods in DAO with database connection
+    9. Run tomcat server -> Its working!
