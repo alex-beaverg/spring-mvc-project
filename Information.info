@@ -109,3 +109,12 @@ Lesson 23:
     9. Add method delete to DAO
     10. Edit view index
     11. Run tomcat server -> Its working!
+
+Lesson 24:
+    1. Edit files Person, index, new, edit, PersonDAO and show with adding 2 field (age and email)
+    2. Run tomcat server -> Its working!
+    3. Add dependency hibernate-validator
+    4. Add validate annotations to class Person
+    5. Edit with validation class PeopleController
+    6. Edit views new and edit with validation
+    7. Run tomcat server -> Its working!
